@@ -1,0 +1,90 @@
+body {
+    text-align: center;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAIElEQVQoU2O8e/fufwYiACNIIT8/P0GlowrxBhHRwQMAgcIlfF5InfQAAAAASUVORK5CYII=) repeat;
+    font-family: sans-serif;
+}
+
+#main {
+    position: relative;
+    top: 100px;
+}
+
+#links {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    height: 60px;
+    /* Height of the footer */
+}
+
+#links a {
+    cursor: pointer;
+}
+
+#clockdiv {
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+    font-size: 750%;
+}
+
+#clockdiv > div {
+    display: inline-block;
+}
+
+#clockdiv div > span {
+    padding: 15px;
+    display: inline-block;
+}
+
+.button {
+    -moz-box-shadow: inset 0px 1px 0px 0px #f5978e;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #f5978e;
+    box-shadow: inset 0px 1px 0px 0px #f5978e;
+    background-color: #f24537;
+    -webkit-border-top-left-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-bottom-left-radius: 5px;
+    text-indent: 0;
+    border: 1px solid #d02718;
+    display: inline-block;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: normal;
+    height: 50px;
+    width: 150px;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 1px 1px 0px #810e05;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #c62d1f;
+}
+
+.button:disabled {
+    -moz-box-shadow: inset 0px 1px 0px 0px #fac3be;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #fac3be;
+    box-shadow: inset 0px 1px 0px 0px #fac3be;
+    background-color: #f5978e;
+    text-shadow: 1px 1px 0px #c77a73;
+    border: 1px solid #c77a73;
+    cursor: default;
+}
+
+.button:active {
+    /*position: relative;
+    top: 1px;*/
+}
