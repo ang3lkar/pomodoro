@@ -20973,7 +20973,7 @@ exports.default = Counter;
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-var DURATION_IN_MINUTES = exports.DURATION_IN_MINUTES = 1;
+var DURATION_IN_MINUTES = exports.DURATION_IN_MINUTES = 25;
 
 },{}],182:[function(require,module,exports){
 'use strict';
