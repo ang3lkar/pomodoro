@@ -20741,7 +20741,7 @@ var PomoPomoDoroArea = function (_React$Component) {
     value: function finishCountdown() {
       this.setState({
         buttonDisabled: false,
-        buttonText: 'Start',
+        buttonText: 'Restart',
         countdown: 'finished',
         endTime: null
       });
@@ -20896,6 +20896,7 @@ var Counter = function (_React$Component) {
     value: function startCountdown(endTime) {
       var _this2 = this;
 
+      this.tick();
       this.timer = setInterval(function () {
         var remaining = _time2.default.getTimeRemaining(_this2.props.endTime);
         var total = _time2.default.objectify(remaining).total;
