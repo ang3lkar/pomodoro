@@ -1,6 +1,8 @@
 # PomoPomodoro
 
-A simple weekend project that leverages technologies such as React and push notifications in the browser.
+A simple weekend project that leverages technologies such as React, push notifications in the browser and Github pages.
+
+Available at: https://ang3lkar.github.io/pomodoro/
 
 ## Installation
 ```
